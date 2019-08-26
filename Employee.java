@@ -25,9 +25,7 @@ public void setName(String name) {
 	this.name = name;
 }
 
-public Object clone()throws CloneNotSupportedException{  
-return super.clone();  
-}
+
 
 @Override
 public boolean equals(Object obj) {
